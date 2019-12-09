@@ -16,3 +16,17 @@
 	5) Create heat map for "at-risk" areas
 	6) Compare with heat map for "preparedness" areas
 
+### Data Catalogue
+	- 2006-2016 total population & dwellings & census by postal code (FSA)
+		- Some of that data was extrapolated (census)
+		- Linear interpolation for missing years
+		- Everything was extrapolated to a one-year basis
+	- 2015-2019 crime data
+	- 2005-2019 Fire incidents data
+	- (constant) Building data
+	- Casernes data
+
+### Data Methodology
+	- Baseline:
+		- Use population, dwellings, census, building data to predict all fire department respondant incidents ranging from 2005-2019
+	
