@@ -11,6 +11,7 @@
 | "notebooks/Predictions - FINAL.ipynb"      | Train the classifier on the featurized dataset & output 2020 forecast                                             |
 | "notebooks/Preparedness Shapefile Gen"     | Join the preparedness computations with neighborhood polygons                                                     |
 | "notebooks/Preparedness.ipynb"             | Generate distances and travel duration times for all points in Montreal to fire stations via Graph Theory         |
+| "Investigation.twbx"                       | Tableau workbook showing the presentation figures on preparedness and risk (heat maps)                            |
 
 ### Strategy
 	Evaluate the risk and preparedness of fire incidents for all areas in Montreal
