@@ -1,6 +1,17 @@
 # MontrealFireSafetyProject
  Tracking progress of our study to determine potential fire safety issues in the city of Montreal
 
+### Glossary
+	The following workflows are relevant for reference and grading purposes:
+| File                                       | Description                                                                                                       |
+|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| "notebooks/Datasets_join.ipynb"            | Joins fire incidents to building data, postal codes, boroughs, and census data using spatial joins in Geopandas.  |
+| "notebooks/Merge fire incidents data.ipynb"| Merges and cleans fire incidents data from 2004 to today                                                          |
+| "notebooks/Group Forecast.ipynb"           | Join the generated 2020 forecast data with neighborhood polygons                                                  |
+| "notebooks/Predictions - FINAL.ipynb"      | Train the classifier on the featurized dataset & output 2020 forecast                                             |
+| "notebooks/Preparedness Shapefile Gen"     | Join the preparedness computations with neighborhood polygons                                                     |
+| "notebooks/Preparedness.ipynb"             | Generate distances and travel duration times for all points in Montreal to fire stations via Graph Theory         |
+
 ### Strategy
 	Evaluate the risk and preparedness of fire incidents for all areas in Montreal
 
